@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dubbodemo_consumer" />
         <module name="dubbodemo_provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dubbodemo_consumer" target="1.5" />
       <module name="dubbodemo_provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
